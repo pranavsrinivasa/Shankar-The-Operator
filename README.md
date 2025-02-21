@@ -1,3 +1,4 @@
+
 # Shankar-The-Operator
 
 **Shankar-The-Operator** is a multi AI agent system designed to control a computer based on user queries. The system uses a hierarchical agent structure to break down complex tasks into simpler actions handled by specialized agents.
@@ -6,15 +7,19 @@
 
 - **Master Agent**  
   The central controller that interprets user queries and delegates tasks to the subordinate agents. It coordinates the overall workflow and ensures that each task is executed in the proper sequence.
-
+  
 - **Subordinate Agents**  
   These agents perform the actual operations on the computer:
   - **Keyboardagent**  
     Handles all keyboard-related tasks, including typing text and executing hotkeys.
   - **Vision Mouse Agent**  
     Manages mouse operations and screen analysis. It has two main methods:
-    - **Pytesseract OCR**: Detects and locates text on the screen by returning its (x, y) coordinates, enabling precise mouse navigation.
-    - **Vision Language Model (e.g., llama 3.2 90B vision)**: Verifies that the executed actions are accurately reflected on the screen, adding an extra layer of confirmation.
+    **Pytesseract OCR**: Detects and locates text on the screen by returning its (x, y) coordinates, enabling precise mouse navigation.
+    **Vision Language Model (e.g., llama 3.2 90B vision)**: Verifies that the executed actions are accurately reflected on the screen, adding an extra layer of confirmation.
+
+https://github.com/user-attachments/assets/3384cd65-c5af-4b2b-8440-d023f17f1e95
+
+https://github.com/user-attachments/assets/1b1e45cd-564c-4dea-a950-e7eaac09ef65
 
 ## Usage Instructions
 
