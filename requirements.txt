@@ -1,0 +1,13 @@
+keyboard
+llama_index
+Pillow
+pyautogui
+pydantic
+llama-index-llms-groq
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-index-core
+groq
+python-dotenv
+pytesseract
+tesseract
